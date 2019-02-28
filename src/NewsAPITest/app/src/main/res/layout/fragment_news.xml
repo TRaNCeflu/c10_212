@@ -1,0 +1,13 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+    <com.example.newsapitest.views.NewsFragmentTitleLayout
+        android:id="@+id/fragment_news_title_comments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></com.example.newsapitest.views.NewsFragmentTitleLayout>
+<WebView
+    android:id="@+id/news_webview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"></WebView>
+</LinearLayout>

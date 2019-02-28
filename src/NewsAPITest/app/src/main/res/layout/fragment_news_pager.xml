@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+<com.example.newsapitest.views.PagerTitleLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"></com.example.newsapitest.views.PagerTitleLayout>
+<android.support.v4.view.ViewPager
+
+    android:id="@+id/activity_news_pager_view_pager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabIndicatorColor="@color/colorAccent"
+        app:tabIndicatorHeight="0dp"
+        app:tabBackground="@android:color/white"
+        app:tabTextAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        app:tabTextColor="#999393"
+        app:tabMode="scrollable"
+        app:tabSelectedTextColor="@android:color/black">
+    </android.support.design.widget.TabLayout>
+
+</android.support.v4.view.ViewPager>
+</LinearLayout>
