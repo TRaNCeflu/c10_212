@@ -1,9 +1,7 @@
 c10_212
 ====
 <br>
-android news project
-<br>
-##项目信息
+## 项目信息
 ______
 * **<font size = 4>项目名称：仿网易新闻客户端</font>**
 <br><br>
